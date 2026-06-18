@@ -1,0 +1,11 @@
+*.iml
+*.lock
+build/
+.dart_tool/
+.packages
+.pub/
+.idea/
+.vscode/
+android/local.properties
+android/app/.cxx/
+*.g.dart
