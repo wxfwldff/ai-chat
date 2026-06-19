@@ -108,7 +108,7 @@ class ApiClient {
     );
     if (response.statusCode == 200) {
       final data = jsonDecode(response.body);
-      return (data['data'] as List).map((e) => e['url'] ?? '').toList();
+      return (data['data'] as List).map<String>((e) => (e['url'] ?? '') as String).toList();
     }
     throw HttpException('Image error ${response.statusCode} ${response.body}');
   }

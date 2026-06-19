@@ -83,8 +83,8 @@ class CommandEngine extends ChangeNotifier {
   String _mapColorName(String name) {
     const map = {
       '红': '#FF0000', 'red': '#FF0000',
-      '绿': '#4CAF50', '绿': '#4CAF50', 'green': '#4CAF50',
-      '蓝': '#2196F3', '蓝': '#2196F3', 'blue': '#2196F3',
+      '绿': '#4CAF50', 'green': '#4CAF50',
+      '蓝': '#2196F3', 'blue': '#2196F3',
       '黄': '#FFEB3B', 'yellow': '#FFEB3B',
       '紫': '#9C27B0', 'purple': '#9C27B0',
       '橙': '#FF9800', 'orange': '#FF9800',
